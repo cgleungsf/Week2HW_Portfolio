@@ -1,0 +1,136 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+
+}
+
+body {
+    background-color: #c9ccc58e;
+    line-height: 32px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+header {
+    border-bottom: solid;
+    border-bottom-width: thin;
+    border-bottom-color:grey;
+    background-color: #ffffff;
+}
+h1 {
+    display: inline-block;
+    font-size: 48px;
+    margin-left: 50px;
+    color: #ffffff;
+    padding:30px;
+    background-color: #3fa18c;
+}
+nav {
+    padding-top: 30px;
+    padding:30 px;
+    margin-right: 20px;
+    float:right;
+
+}
+a{
+    color: grey;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+
+ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+/* About me text with image and paragraph */
+h2 {
+    font-size: 36px;
+    color: #3fa18c;
+    padding:20px;
+    padding-bottom:0px;
+}
+.clearfix:after {
+    display: block;
+    clear: both;
+}
+.container 
+{
+margin: 50px;
+    position: relative;
+    background-color:white;
+    width: 80%;
+    display: inline-block;
+}
+hr{
+    margin:20px;
+}
+img {
+    float: left;
+    padding:20px;
+    border-width:50px;
+    display: inline-block;
+}
+
+p{
+    position: absolute;
+    padding: 10px;
+    display: inline-block;
+    float: right;
+}
+/* bottom of page  */
+footer {
+    border:  solid;
+    border-color: grey;
+    border-top-width: solid;
+    border-top-color: #3fa18c;
+    
+    clear:both;
+    position:absolute; 
+    width: 100%;
+    bottom: 0;
+    color:white;
+    padding: 20px;
+    background-color: grey;
+    text-align: center;
+} 
+/* Contact Page */
+form{
+margin: 20px;
+}
+
+button{
+    border:none;
+    padding: 10px 20px;
+    color: #fff;
+    background-color: #3fa18c;;
+}
+
+
+
+/* Portfolio  */
+.portfolio-button{
+    border-radius: 5px;
+}
+
+.portfolio-button img {
+    position: relative;
+    width: 300px;
+}
+  
+  h3 {
+    background-color: #3fa18c;
+    color: #fff;
+    width: 260px;
+    position: absolute;
+    bottom: 30px;
+    left:20px;
+    border-radius: 5px;
+    text-align:center;
+    padding: 10px 20px;
+    margin: 0;
+    font: 24px Sans-Serif;
+  }
+  
+ 
