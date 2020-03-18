@@ -4,60 +4,62 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- <link rel="stylesheet" href="./Assets/css/reset.css"> -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
     <link rel="stylesheet" href="./assets/css/style.css">
-  
+
     <title>AboutMe</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"
-    integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
- 
 </head>
 
 <body>
-    <header>
-        <h1>Christina <span>Leung</span></h1>
-        <nav>
-            <ul>
-                <li><a href="#about">About</a></li>
-                <li><a href="./portfolio.html">Portfolio</a></li>
-                <li><a href="./contact.html">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
 
-    <div class="container">
+    <div class="navigationpane">
+        <h1>Christina <span>Leung</span></h1>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                        <ul class="nav navbar-nav">
+                            <li>
+                                <a href="#about">About</a>
+                            </li>
+                            <li>
+                                <a href="./portfolio.html">Portfolio</a>
+                            </li>
+                            <li>
+                                <a href="./contact.html">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <section>
+    <div class="container-fluid bg-light cardsize float-left">
         <h2>About Me</h2>
         <hr>
         <div class="row">
-            <div class="col-lg-12">
-                <img src="./Assets/Images/Face.PNG" alt="Photo of Christina Leung" />
+            <div class="col-lg-4">
+                <img src="./Assets/Images/port_4.jpg" alt="succulent terrarium" class="rounded-circle img-fluid"
+                    class="img-fluid">
+            </div>
+            <div class="col-lg-8">
                 <p>
                     * Write a paragraph or two about yourself. Make it fun; show your personality!
-                    * The main logo where it says "Your Name" should say your name. This may make the logo section
+                    * The main logo where it says "Your Name" should say your name. This may make the logo
+                    section
                     smaller
                     or
                     wider depending on how long your name is—that is fine and expected.
-
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae perspiciatis accusamus qui,
-                    exercitationem maiores voluptate repudiandae odio esse! Vitae est repellendus magni eum dolores
-                    facere
-                    rem expedita in pariatur laboriosam!
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla laborum ratione molestias soluta ab
-                    ducimus beatae eveniet. Accusamus consequuntur quos harum, reiciendis tempore perferendis inventore
-                    perspiciatis expedita fuga dolores, nulla asperiores temporibus. Fugit obcaecati non dolorum ipsa
-                    voluptatum ut doloribus aliquid eum, consequatur aperiam eos quaerat porro laboriosam, ratione
-                    incidunt
-                    tempore eius quae et veritatis atque minus maxime. Dolorem temporibus doloribus neque veritatis iure
-                    eligendi reiciendis quam in harum facilis, corrupti id magni dolore illum fugiat. Porro nulla
-                    assumenda
-                    corrupti aliquam, obcaecati necessitatibus officia molestias perferendis maxime, cumque, quos
-                    architecto
-                    dolores eveniet iure ipsam. Incidunt nemo nihil eveniet est tempora.
+                </p>
+                <p>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quo soluta pariatur unde molestiae, repellendus obcaecati dolores porro ratione veniam voluptatum labore ut atque eveniet nihil ad consectetur maxime optio eius aspernatur fugit amet neque doloremque natus cumque. Magnam exercitationem rerum nobis commodi corporis sapiente maiores distinctio quia, saepe esse voluptatum?
                 </p>
             </div>
         </div>
-    </div>
 
+    </div>
+</section>
     <footer>
         @ Copyright
     </footer>
