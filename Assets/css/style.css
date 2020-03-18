@@ -51,34 +51,80 @@ h2 {
     padding:20px;
     padding-bottom:0px;
 }
-.clearfix:after {
-    display: block;
-    clear: both;
-}
-.container 
-{
-margin: 50px;
+.container  {
+    margin: 50px;
     position: relative;
     background-color:white;
     width: 80%;
     display: inline-block;
-}
-hr{
-    margin:20px;
-}
-img {
-    float: left;
-    padding:20px;
-    border-width:50px;
-    display: inline-block;
-}
+    }
+    hr{
+        margin:20px;
+    }
+    img {
+        float: left;
+        padding:20px;
+        border-width:50px;
+        display: inline-block;
+    }
+    p{
+        position: absolute;
+        padding: 10px;
+        display: inline-block;
+        /* float: right; */
+        /* word-wrap: break-word; */
+    }
+/* @media only screen and (max-width: 640px) {
+    .container  {
+        margin: 50px;
+        position: relative;
+        background-color:white;
+        width: 80%;
+        display: inline-block;
+        }
+        hr{
+            margin:20px;
+        }
+        img {
+            float: left;
+            padding:20px;
+            border-width:50px;
+            display: inline-block;
+        }
+        p{
+            position: absolute;
+            padding: 10px;
+            display: inline-block;
+            /* float: right; */
+            /* word-wrap: break-word; */
+        /* }
+        }
 
-p{
-    position: absolute;
-    padding: 10px;
-    display: inline-block;
-    float: right;
-}
+@media only screen and (max-width: 768px) {
+    .container  {
+        margin: 50px;
+        position: relative;
+        background-color:white;
+        width: 80%;
+        display: inline-block;
+        }
+        hr{
+            margin:20px;
+        }
+        img {
+            float: left;
+            padding:20px;
+            border-width:50px;
+            display: inline-block;
+        }
+        p{
+            position: absolute;
+            padding: 10px;
+            display: inline-block;
+            /* float: right; */
+            /* word-wrap: break-word; */
+        /* }
+        }
 /* bottom of page  */
 footer {
     border:  solid;
@@ -87,7 +133,7 @@ footer {
     border-top-color: #3fa18c;
     
     clear:both;
-    position:absolute; 
+    position:sticky; 
     width: 100%;
     bottom: 0;
     color:white;
@@ -107,8 +153,6 @@ button{
     background-color: #3fa18c;;
 }
 
-
-
 /* Portfolio  */
 .portfolio-button{
     border-radius: 5px;
@@ -116,8 +160,10 @@ button{
 
 .portfolio-button img {
     position: relative;
-    width: 300px;
+    width: 400px;
 }
+
+/* TESTING */
   
   h3 {
     background-color: #3fa18c;
@@ -129,6 +175,7 @@ button{
     border-radius: 5px;
     text-align:center;
     padding: 10px 20px;
+    background:green;
     margin: 0;
     font: 24px Sans-Serif;
   }
